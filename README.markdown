@@ -1,8 +1,10 @@
-# Spectacle Boilerplate
+# Municipi i tecnologia: on som i futurs possibles
 
-## Reference
+## Description (Catalan)
 
-The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.markdown](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
+Dario Castañé de Pirates de Catalunya explicarà la seva visió de la situació actual tecnològica als nostres municipis, arran de la seva experiència com regidor i informàtic, respondrà la pregunta "Estan les nostres dades segures als Ajuntaments?" i exposarà possibles alternatives per assolir la sobirania tecnològica plena i fer front als reptes del futur.
+
+Published at [Speaker Deck](https://speakerdeck.com/dario/municipi-i-tecnologia-on-som-i-futurs-possibles/).
 
 ## Development
 
