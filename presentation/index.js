@@ -36,6 +36,7 @@ require("spectacle/lib/themes/default/index.css");
 const images = {
   pebkac: require("../assets/pebkac_by_zstag.png"),
   ccby: require("../assets/by.svg"),
+  blockchain: require("../assets/blockchain.jpg"),
 };
 
 preloader(images);
@@ -192,21 +193,24 @@ export default class Presentation extends React.Component {
               `}
             </Markdown>
           </Slide>
-          <Slide bgColor="primary">
-            <Heading textFont="secondary" caps fit size={1} textColor="secondary">
+          <Slide bgColor="secondary">
+            <Heading textFont="secondary" caps fit size={1} textColor="primary">
               #PressingAjuntament
             </Heading>
           </Slide>
-          <Slide bgColor="tertiary">
-            <Heading textFont="secondary" caps fit size={1} textColor="primary">
+          <Slide bgColor="primary">
+            <Heading textFont="secondary" caps fit size={1} textColor="secondary">
               Quins futurs podem construir?
             </Heading>
             <Markdown>
               {`
-* **Descentralització**
 * **1984 de les corporacions**
+* **Descentralització**
               `}
             </Markdown>
+          </Slide>
+          <Slide bgColor="primary">
+            <Image src={images.blockchain} width={900}/>
           </Slide>
           <Slide bgColor="secondary">
             <Heading textFont="secondary" size={2} caps fit lineHeight={1} textColor="tertiary">
