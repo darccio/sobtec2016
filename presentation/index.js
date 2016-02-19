@@ -37,6 +37,9 @@ const images = {
   pebkac: require("../assets/pebkac_by_zstag.png"),
   ccby: require("../assets/by.svg"),
   blockchain: require("../assets/blockchain.jpg"),
+  folder: require("../assets/carpeta_ciutadana.png"),
+  ssl_a: require("../assets/ssl_a.jpg"),
+  ssl_b: require("../assets/ssl_b.jpg"),
 };
 
 preloader(images);
@@ -150,6 +153,12 @@ export default class Presentation extends React.Component {
             </Markdown>
           </Slide>
           <Slide bgColor="primary">
+            <Image src={images.ssl_a} width={640}/>
+          </Slide>
+          <Slide bgColor="primary">
+            <Image src={images.ssl_b} width={640}/>
+          </Slide>
+          <Slide bgColor="primary">
             <Heading textFont="secondary" caps fit size={1} textColor="secondary">
               Enginyeria social
             </Heading>
@@ -165,6 +174,9 @@ export default class Presentation extends React.Component {
 * **Dispersió de serveis, redundància i poca reutilització**
               `}
             </Markdown>
+          </Slide>
+          <Slide bgColor="primary">
+            <Image src={images.folder} width={1024}/>
           </Slide>
           <Slide bgColor="#E61919">
             <Heading textFont="secondary" caps fit size={1} textColor="tertiary">
