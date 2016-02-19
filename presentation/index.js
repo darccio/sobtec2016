@@ -56,7 +56,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Spectacle theme={theme}>
-        <Deck transition={["slide"]} transitionDuration={250}>
+        <Deck transition={[]} transitionDuration={250}>
           <Slide bgColor="primary">
             <Heading textFont="secondary" size={1} fit caps lineHeight={0.5} textColor="tertiary">
               Municipi
