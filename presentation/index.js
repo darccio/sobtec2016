@@ -185,7 +185,7 @@ export default class Presentation extends React.Component {
             <Markdown>
               {`
 * **Smart Cities**
-* **Internet of the Things (IoT)**
+* **Internet of Things (IoT)**
 * **Big Data**
               `}
             </Markdown>
@@ -197,7 +197,7 @@ export default class Presentation extends React.Component {
             <Markdown>
               {`
 * **Migració a programari lliure**
-* **Ús de ormats oberts**: Open Data
+* **Ús de formats oberts**: Open Data
 * **Més inversió en seguretat TIC**
 * **Auditories tècniques externes**
 * **Aplicació de pràctiques d'Open Gov**
